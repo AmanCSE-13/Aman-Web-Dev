@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shop Streak Home</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #c8d7f0;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: #1e847b;
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            height: 60px;
+        }
+
+        .nav-links {
+            width: 33%;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+            font-size: 16px;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        .logo {
+            width: 34%;
+            text-align: center;
+            color: white;
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        .search-box {
+            width: 33%;
+            text-align: right;
+        }
+
+        .search-box input {
+            padding: 6px;
+            width: 70%;
+            border: none;
+            border-radius: 5px;
+        }
+
+        /* Banner */
+        .banner {
+            background-color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        /* Products */
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 10px;
+        }
+
+        .product-card {
+            background-color: white;
+            width: 375px;
+            height: 440px;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .product-card img {
+            width: 350px;
+            height: 320px;
+            object-fit: cover;
+        }
+
+        .product-card h3 {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .product-card p {
+            color: rgb(9, 163, 78);
+            font-weight: bold;
+        }
+        button {
+            width: 300px;
+            padding: 10px;
+            background-color: #ff9f00;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #fb641b;
+            color: white;
+        }
+
+        .footer {
+            background-color: #172337;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+
+        <div class="nav-links">
+            <a href="ProjectMobile.html">Mobiles</a>
+            <a href="ProjectLaptops.html">TVs & Laptops</a>
+            <a href="ProjectCart.html">Cart</a>
+            <a href="ProjectLogin.html">Login</a>
+            <a href="ProjectContact.html">Contact</a>
+        </div>
+
+        <div class="logo">
+            Shop Streak
+        </div>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search for products">
+        </div>
+
+    </div>
+
+    <!-- Banner -->
+    <div class="banner">
+        Trending Products 🎉
+    </div>
+
+    <!-- Products -->
+    <div class="products">
+
+        <div class="product-card">
+            <img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-air-1.jpg" alt="Mobile">
+            <h3>i Phone 17 Air</h3>
+            <p>₹1,19,990</p>
+            <button>Add to Cart</button>    
+        </div>
+
+        <div class="product-card">
+            <img src="https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Computers%20Peripherals/Laptop/Images/311425_0_tkybxp.png?tr=w-640" alt="Laptop">
+            <h3>HP Victus Gaming Laptop</h3>
+            <p>₹80,900</p>
+            <button>Add to Cart</button>    
+        </div>
+
+        <div class="product-card">
+            <img src="https://mobistorm.in/cache/large/product/1979/Giq03hYnxgiXorHdcFJJ0qWSNmlEUY69V2SEueIA.jpg" alt="Headphones" height="320px">
+            <h3>Boat Headphones</h3>
+            <p>₹2,599</p>
+            <button>Add to Cart</button>    
+        </div>
+
+        <div class="product-card">
+            <img src="https://www.layers.shop/cdn/shop/files/Rectangle_147038_140df2b3-307f-4fa8-8603-e690385f9da3.png?v=1757673055&width=416" alt="Watch">
+            <h3>Anarc Smart Watch</h3>
+            <p>₹4,499</p>
+            <button>Add to Cart</button>    
+        </div>
+
+        <div class="product-card">
+            <img src="https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Entertainment/Television/Images/315258_0_dv11x1.png" alt="Camera">
+            <h3>Samsung Smart QLed TV</h3>
+            <p>₹1,50,999</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.pexels.com/photos/4917455/pexels-photo-4917455.jpeg" alt="Camera">
+            <h3>JBL Speaker</h3>
+            <p>₹1,999</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+  Contact: support@ShopStreak.com
+    </div>
+
+</body>
+</html>
