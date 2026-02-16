@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delicious Bites Restaurant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #87cbea;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        h2 {
+            color: #3b0dd1;
+        }
+        ul {
+            line-height: 1.8;
+        }
+        .menu {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .images {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .images img {
+            width: 250px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .reserve {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .reserve a {
+            background-color: #8b0000;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        footer {
+            margin-top: 40px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Delicious Bites</h1>
+    <p>Fresh • Tasty • Hygienic</p>
+    <nav>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#reserve">Reservation</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <ul>
+            <li>Starters
+                <ul>
+                    <li>Veg Soup</li>
+                    <li>Cocktail</li>
+                    <li>Chruncy Chips</li>
+                </ul>
+            </li>
+            <li>Main Course
+                <ul>
+                    <li>Veg
+                        <ul>
+                            <li>Paneer Butter Masala</li>
+                            <li>Mix Veg</li>
+                        </ul>
+                    </li>
+                    <li>Non-Veg
+                        <ul>
+                            <li>Chicken Curry</li>
+                            <li>Butter Chicken</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>Desserts
+                <ul>
+                    <li>Rasgulla</li>
+                    <li>Ice Cream</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Food Gallery</h2>
+        <div class="images">
+            <img src="https://images.unsplash.com/photo-1604908554269-1b3b1a8e9e0c" alt="Paneer Dish">
+            <img src="https://images.unsplash.com/photo-1606756790138-261d2b21cd75" alt="Chicken Dish">
+            <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe" alt="Dessert">
+        </div>
+    </section>
+
+    <section id="reserve" class="reserve">
+        <h2>Reserve a Table</h2>
+        <p>Book your table in advance and enjoy your meal!</p>
+        <a href="">Reserve Now</a>
+    </section>
+
+</div>
+
+<footer>
+    <p>© 2026 Delicious Bites Restaurant</p>
+</footer>
+
+</body>
+</html>
